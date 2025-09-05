@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/medias.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja Bem-Vindo(a) de volta! Preencha os campos abaixo por gentileza.</p>
+                <form action="" method="post" autocomplete="on">
+                    <div class="campo">
+                        <label for="iemail">E-mail</label>
+                        <input type="email" name="email" id="iemail" placeholder="Digite seu E-mail" required autocomplete="email">
+                        <span class="material-symbols-outlined">person</span>
+                    </div>
+                    <div class="campo">
+                        <label for="isenha">Senha</label>
+                        <input type="password" name="senha" id="isenha" minlength="8" maxlength="20" placeholder="Digite sua Senha" required autocomplete="new-password">
+                        <span class="material-symbols-outlined">lock</span>
+                    </div>
+                    <input type="submit" value="Entrar" class="botao">
+                    <a href="#" class="botao">Esqueci a senha</a>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
